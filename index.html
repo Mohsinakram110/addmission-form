@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Private School Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <h1>Private School Application Form</h1>
+        
+        <p>Parent/Guardian:     
+            <input type="text" name="username" placeholder="Parents/Guardian Name" required />
+        </p>
+        <p>Child's Age When They Start School:
+            <input type="number" name="Child age" placeholder="Child age" required>
+        </p>
+        <p>Child's Name: 
+            <input type="text" name="Child Name" placeholder="Child Name" required>
+        </p>
+        <p>Previous School:
+            <input type="radio" name="school" value="Govrnment" checked> Government
+            <input type="radio" name="school" value="Private"> Private
+        </p>
+        <p>Home Address: 
+            <input type="text" name="address" placeholder="Enter your Home address" required>
+        </p>
+        <p>City:
+            <input type="radio" name="city" value="Hyderabad" checked> Hyderabad
+            <input type="radio" name="city" value="Others"> Others
+        </p>
+        <p>Religion:
+            <input type="checkbox" name="service" value="Islam" checked> Islam
+            <input type="checkbox" name="service" value="Other"> Other
+        </p>
+        <p>Gender:
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Male</label>
+        </p>
+        <p>Phone Number:
+            <input type="tel" name="Number" placeholder="Current Contact number" required>
+        </p>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
